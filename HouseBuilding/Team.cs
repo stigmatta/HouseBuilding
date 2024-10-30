@@ -30,6 +30,8 @@ namespace WorkerClasses
             } while (new PartChecker().PercentReport() < 100);
 
             Console.WriteLine("House-building has completed.");
+
+            tl.DrawHouse();
         }
     }
 }

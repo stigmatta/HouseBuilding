@@ -41,5 +41,18 @@ namespace WorkerClasses
             Console.WriteLine("{0} has been built for the house", part.Name);
             new PartChecker().PercentReport();
         }
+
+        public void DrawHouse()
+        {
+            Console.WriteLine("   /\\   ");
+            Console.WriteLine("  /  \\  ");
+            Console.WriteLine(" /____\\ ");
+            Console.WriteLine("|      |");
+            Console.WriteLine("|[+] [+]");
+            Console.WriteLine("|      |");
+            Console.WriteLine("|[+] [+]");
+            Console.WriteLine("|______|");
+        }
+
     }
 }
